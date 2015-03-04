@@ -7,3 +7,18 @@ img {
 	border-radius: 50%;
 }
 
+
+
+/*$list_test1 : (1px 2px) (3px 4px);*/
+/*$list_test2 : 3px;*/
+/*$list_test3 : (1 2 3, 1, 2);*/
+/*$list_test3 : (1 2 3, 4 5), (1,2), 3;*/
+/*$key1: 0;*/
+/*$map2: (key1: 1px, key2: 10px, key3: 1px);*/
+/*$map3: (key1: $list_test2, key2: $list_test2, key3: $list_test2);*/
+/*$m4: map-merge($map2, $map3);*/
+/*$m5: map-remove($map2, $map3);*/
+/*.test {*/
+/*content: $m5;*/
+/*}*/
+
